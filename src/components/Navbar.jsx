@@ -1,22 +1,9 @@
-import React from 'react';
+
 import { ShoppingBag, Menu } from 'lucide-react';
 
 export default function Navbar() {
   return (
     <header className="w-full sticky top-0 z-50">
-      {/* Top Offer Bar */}
-      <div className="bg-black text-white text-[11px] text-center py-2 px-4 tracking-wider flex justify-center items-center gap-2">
-        <span>
-          GET 5% OFF WITH CODE: <strong className="text-amber-400">SUMMER</strong>
-        </span>
-        <span className="hidden sm:inline">
-          • OFFER ENDS IN:{' '}
-          <span className="bg-zinc-800 px-2 py-0.5 rounded text-amber-300 font-mono">
-            22:47
-          </span>
-        </span>
-      </div>
-
       {/* Main Navigation Bar */}
       <div className="flex items-center justify-between px-6 md:px-14 py-4 bg-white border-b border-gray-100">
         {/* Left Navigation Links */}
